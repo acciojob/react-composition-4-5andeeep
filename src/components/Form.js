@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 const Form = () => {
 
-    let [form, setForm] = useState({name: "Name", email: "e@mail.com", password:""});
+    let [form, setForm] = useState({name: "Steve Rogers", email: "captain.america@avengers.com", password:""});
 
     
     function validation(event){
